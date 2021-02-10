@@ -11,6 +11,8 @@ public class Application extends Frame {
 	public Application() {
 		super();
 		
+		setLocationRelativeTo(null);
+		
 		Modèle modl = new Modèle();
 		Contrôleur ctrl = new Contrôleur(modl); 
 		Vue vue = new Vue();
