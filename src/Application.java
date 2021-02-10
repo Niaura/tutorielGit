@@ -13,7 +13,6 @@ public class Application extends Frame {
 		
 		setLocationRelativeTo(null);
 		setTitle("Bonjour");
-		
 		Modèle modl = new Modèle();
 		Contrôleur ctrl = new Contrôleur(modl); 
 		Vue vue = new Vue();
@@ -32,4 +31,4 @@ public class Application extends Frame {
 	
 
 
-}
+} 
