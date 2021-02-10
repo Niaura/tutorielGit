@@ -12,6 +12,7 @@ public class Application extends Frame {
 		super();
 		
 		setLocationRelativeTo(null);
+		setTitle("Bonjour");
 		
 		Modèle modl = new Modèle();
 		Contrôleur ctrl = new Contrôleur(modl); 
